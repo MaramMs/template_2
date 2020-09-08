@@ -1,0 +1,32 @@
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.option-box .gear-cheack
+{ 
+    background-color:green;
+    
+}
+.dropdown-menu{
+ 
+    border-top: 3px solid green;
+   
+    
+}
+
+
+.option-box .color-option,
+.Testimonials .carousel-indicators li.active{
+    
+     border: 3px solid green;
+     
+}
+
+.about h1 span,
+.Testimonials span,
+.navbar-inverse .navbar-brand span
+{
+    color:green;
+}

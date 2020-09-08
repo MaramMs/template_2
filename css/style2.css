@@ -1,0 +1,126 @@
+
+/*Start globle*/
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+ul {
+    list-style: none;
+}
+/* end globle*/
+
+/*start header*/
+.just{
+    background-color:#333;
+    padding: 20px;
+    color:#ddd;
+    
+}
+ .just h1{
+    text-align: center;
+}
+nav{background-color: #ddd;}
+nav ul{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+nav ul li:after{
+    content: "|";
+    
+}
+nav ul li:last-child:after{
+    content: ""
+}
+
+main{
+    background-color: #eee;
+    padding: 20px;
+}
+main p mark{
+    background-color: #00f;
+    color:#fff;
+}
+main p{
+    text-align: center;
+}
+main p span{
+    font-weight: bold;
+    color:#666;
+}
+
+
+
+
+.post{
+    width: 70%;
+    float: left;
+}
+
+
+
+
+.post article{
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+.post article header{
+    background-color: #e2e2e2;
+    padding: 10px;
+    
+}
+.post article section{padding: 10px;}
+aside{
+    width: 30%;
+    float: right;
+}
+.post article section detalis{margin: 10px 0px;}
+aside section{
+    background-color: #eee;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+aside section h3{
+    background-color: #d1d1d1;
+    padding: 10px;
+}
+aside section ul{
+    margin-top: 10px;
+}
+aside section ul li{
+    line-height: 2;
+}
+aside section div{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #333;
+    color:#ddd;
+    padding: 20px;
+    text-align: center;
+}

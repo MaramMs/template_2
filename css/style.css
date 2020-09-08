@@ -1,0 +1,397 @@
+body{/*overflow: hidden*/;}
+
+h1 , h2 , h3 , h4 , h5 ,.lead{ font-family: 'Spirax', cursive;}
+/* Start Overriding bootstrap*/
+/*Main NavBar*/
+.navbar{
+    min-height:70px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+/* Active Link */
+ /* Navbar Link*/ 
+ .navbar-inverse .navbar-nav >li>a{
+    color:#BBB;
+     padding-bottom: 25px;
+     padding-top: 25px;
+     font-size: 16px;
+}
+/* Brand Name*/
+.navbar-inverse .navbar-brand{
+    color:#BBB;
+    font-size: 30px;
+    line-height: 40px
+}
+/* Dropdown-menu*/
+.dropdown-menu{ background-color: #333;  min-width: 200px;}
+.navbar-right .dropdown-menu{ right: auto; /* هان بخلي القائمة المنسدلة وكانها الانجليزية لانو الموقع الانجليزي لو بدي عربي بعكسهم*/ left: 0;}
+.dropdown-menu > li > a{color: #FFF;padding: 6px 20px;}
+    
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{ color: #FFF; padding-left: 25px;}
+.dropdown-menu .divider{  background-color: #871818;}
+/* Navbar Toggle*/
+.navbar .toggle{margin-top: 30px;}
+/* Start carousel*/
+.carousel-caption{
+    padding-top: 0px;
+    bottom: 80px;
+    background-color: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.carousel-indicators li{  height:20px; width: 20px;}
+.carousel-indicators .active{width: 22px;height: 22px;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{ 
+    background-size: cover;
+}
+/* End Overriding bootstrap*/
+/*Start Section tool box*/
+.option-box{
+    position: fixed;
+    top:100px;
+    left:0px;
+    z-index: 9999;/*  اعلى طبقة بكون */
+}
+ .option-box .color-option{
+    float: left;
+     background: #333;
+     color:#fff;
+     padding: 10px;
+     width: 200px;
+     display: none;
+}
+.option-box .color-option ul li{
+    width:20px;
+    height: 20px;
+    background: #f00;
+    display: inline-block;
+    margin-right: 3px;
+}
+.option-box .gear-cheack{
+    padding: 5px;
+    color: #fff;
+    cursor:pointer;
+}
+/*End Section tool box*/
+/* Start Section About */
+.about{ padding-top: 60px; padding-bottom: 60px;}
+.about h1{font-weight: bold;}
+.about .lead{
+    color:#888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+/* Start Features*/
+.Features{
+   background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Features .feat{ margin-bottom: 30px;}
+.Features .feat p{ line-height: 2em;}
+.Features .feat span.glyphicon{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:#666;
+}
+/* End Features*/
+/* Start Testimonials section */
+.Testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Testimonials .lead{line-height: 2em;margin-bottom: 10px;}
+.Testimonials span{font-size: 18px;font-weight: bold;}
+.Testimonials .carousel-inner{min-height: 160px;}
+.Testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.Testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.Testimonials .carousel-indicators li.active{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+}
+.Testimonials .carousel-indicators li img{ max-height: 100%;}
+/* End Testimonials section */
+/* Start Section Price Table*/
+.price-Table{
+    background-color: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price-Table .price-box .h1{margin: }
+
+.price-Table .price-box{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 10px;
+}
+.price-Table .price-box:hover p{
+    -webkit-transform:scale(1,1) rotate(360deg);
+    -moz-transform:scale(1,1) rotate(360deg);
+    -o-transform:scale(1,1) rotate(360deg);
+   transform:scale(1,1) rotate(360deg);
+    border: 2px solid #DFDFDF;
+}
+.price-Table .price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    color:#666;
+    border: 2px solid #FFF;
+    width: 100px;
+    height: 100px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    line-height: 100px;
+}
+.price-Table .price-box ul{ line-height: 250%;font-size: 18px;}
+.price-Table .price-box a{margin-bottom: 5px;}
+/* Start Section Price Table*/
+
+/* Start Section Our Team */
+.our-team{ background: url('../images/4285972_max.jpg')no-repeat center center fixed;min-height: 600px;}
+.our-team .team{
+    background: rgba(2,2,2,0.8);
+    color:#FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team .person{margin-bottom: 40px;}
+.our-team .person p{font-size: 18px;}
+/* Start Section Our Team */
+/* Start Section Subscribe*/
+.Subscribe{
+   padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #EEE;
+}
+.Subscribe h1{
+    color:#888;
+    letter-spacing: 2px;
+}
+.Subscribe p{margin-bottom: 30px;}
+.Subscribe .form-control{
+    border-radius: 0px;
+    margin-right: -5px;
+    width: 300px;
+}
+.Subscribe button{ border-radius: 0px;}
+/* End Section Our Team */
+/*Start section Statistics*/
+.Statistics{
+    background:url("../images/apple-computer-cup-7974.jpg")no-repeat center center fixed;min-height: 300px;}
+.Statistics .data{
+    background-color: rgb(2,2,2,0.6);
+    color:#B6B5B5;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.Statistics .stats{margin-bottom: 30px;}
+.Statistics .stats:hover{ color:#FFF;}
+.Statistics p{
+    font-size:60px;
+    font-weight: 600px;
+    margin-bottom: 0px;  
+}
+.Statistics span{font-size:18px;}
+/*End section Statistics*/
+
+/*Start section our skills*/
+.our-skills{padding-top: 40px; padding-bottom: 70px;}
+.our-skills h3{font-weight: bold;margin-top: 0px;}
+.our-skills .progress{height: 36px;}
+.our-skills .progress-bar{
+    line-height: 36px;
+    font-size:15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+/*End section our skills*/
+/* Start section contact us*/
+.contact-us{
+   background:url("../images/apple-computer-cup-7974.jpg")no-repeat center center fixed;  min-height: 300px; }
+.contact-us .fields{
+    background:rgba(9,9,9,0.8);
+    min-height:300px;
+    color:#DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact-us p{margin-bottom: 40px;}
+.contact-us textarea.form-control{height:108px;}
+.contact-us input[type="text"],.contact-us textarea.form-control{
+    background: rgba(82,78,78,0.7);
+    color:#fff;
+    border:none;
+}
+/* End section contact us*/
+/*Start Section our client*/
+.our-clients{
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.our-clients img{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.our-clients img:hover{ opacity: 1;}
+/*End  Section our client*/
+/*Start Section footer*/
+.footer{
+    background: #111;
+    color:#aaa;
+    padding-top: 20px;
+}
+.footer a{color:#aaa;}
+.footer a:hover{color:#fff;}
+.footer h3{
+    color:#0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px ;
+} 
+.footer .three-columes li{
+    width:33.3333%;
+    float: left;
+    padding: 5px 0px;
+}
+
+.footer .social-list{/*overflow:hidden;*/margin: 20px 0 10px;}
+.footer .social-list li{
+    margin-right: 3px ;
+    float: left;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.footer .social-list li:hover{ opacity: 1;}
+.footer .img-thumbnail{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+.footer .copyright{
+    background: #333;
+    color:#aaa;
+    padding: 15px 0px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer .copyright span{color:#0895d1;}
+/*End Section footer*/
+/* Start section loading*/
+.loading-overlay{
+    background: #222;
+    color:#fff;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    width:100%;
+    height: 100%;
+    z-index: 99999;
+} 
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+/* End section loading*/
+ /*--Start Section Scroll to top*/
+#scroll-top{
+    width: 50px;
+    height: 40px;
+    color:#ddd;
+    background-color: #777;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 99999;
+    display: none;
+    cursor: pointer;
+}
+#scroll-top:hover{ background-color: #444;}
+/*--End Section Scroll to top*/
+/*Start Our grouping System*/
+.contact-us ,.our-team, .statistics{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.Features .h1, .Statistics .h1,.Testimonials .h1,
+.price-Table .h1,
+.our-team .team .h1,
+.Subscribe .h1,
+.our-skills .h1
+{ margin-bottom: 50px;}
+.footer,
+.our-clients img,
+.Statistics .stats,
+.price-Table .price-box p,
+.Testimonials .carousel-indicators li,
+.dropdown-menu > li > a
+{
+    -webkit-transition:all 0.5s ease-in-out; 
+    -moz-transition:all 0.5s ease-in-out; 
+    -o-transition:all 0.5s ease-in-out; 
+    transition:all 0.5s ease-in-out;
+}
+div #container{
+-webkit-perspective: 250px;
+-webkit-perspective-origin: 50% 80%;
+}
+div #child{
+-webkit-transform-origin: 50% 50% 50%;
+-webkit-transform: perspective(0)
+translate3d(50px, 40px, 80px)
+scale3d(1, 2, 0)
+rotate3d(0, 1, 0, 45deg);
+-webkit-transform-style: preserve-3d;
+}
